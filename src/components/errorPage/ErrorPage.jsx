@@ -1,7 +1,8 @@
 //Error Page when user tries to access invalid url
 
 import Grid from "@mui/material/Grid";
-import ErrorOutlineOutlinedIcon from '@mui/icons-material/ErrorOutlineOutlined';import Typography from "@mui/material/Typography";
+import ErrorOutlineOutlinedIcon from '@mui/icons-material/ErrorOutlineOutlined';
+import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 
 const ErrorPage = () => {

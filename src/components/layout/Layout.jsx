@@ -53,7 +53,23 @@ const Layout = () => {
                                 									
 								</ProtectedRoute>
 							}
-						/>						
+						/>			
+						<Route
+							path="/product/modify"
+							element={
+								<ProtectedRoute role={["ADMIN"]}>
+									
+								</ProtectedRoute>
+							}
+						/>	
+						<Route
+							path="/product/view"
+							element={
+								<ProtectedRoute >
+									
+								</ProtectedRoute>
+							}
+						/>		
 						<Route
 							path="*"
 							element={
