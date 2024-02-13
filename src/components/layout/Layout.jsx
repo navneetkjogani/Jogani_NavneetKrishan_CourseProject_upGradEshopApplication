@@ -11,6 +11,8 @@ import ErrorPage from "../errorPage/ErrorPage";
 import ProtectedRoute from "../protectedRoute/ProtectedRoute";
 import BroadcastMessage from "../broadcastMessage/BroadcastMessage";
 import Header from "../header/Header";
+import ProductDetail from "../productDetail/ProductDetail";
+
 
 const Layout = () => {
 
@@ -66,10 +68,18 @@ const Layout = () => {
 							path="/product/view"
 							element={
 								<ProtectedRoute >
-									
+									<ProductDetail />
 								</ProtectedRoute>
 							}
 						/>		
+						<Route
+							path="/product/order"
+							element={
+								<ProtectedRoute >
+									
+								</ProtectedRoute>
+							}
+						/>
 						<Route
 							path="*"
 							element={
