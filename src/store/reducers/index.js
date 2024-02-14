@@ -1,6 +1,6 @@
 import metadataReducer from "./metadataReducer";
-import {combineReducers} from "redux";
+import { combineReducers } from "redux";
 
 export default combineReducers({
-	metadata: metadataReducer,
+  metadata: metadataReducer,
 });

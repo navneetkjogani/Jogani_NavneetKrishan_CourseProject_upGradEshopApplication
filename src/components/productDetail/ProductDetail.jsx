@@ -130,8 +130,8 @@ const ProductDetail = () => {
   };
 
   let moveToHomePage = () => {
-	navigate("/home");
-	};
+    navigate("/home");
+  };
 
   return (
     <Box sx={{ flexGrow: 1 }}>
@@ -264,12 +264,13 @@ const ProductDetail = () => {
                         >
                           PLACE ORDER
                         </Button>
-						<Button variant="text"
-								color="disabled"
-								onClick={() => moveToHomePage()}
-						>
-							BACK
-						</Button>
+                        <Button
+                          variant="text"
+                          color="disabled"
+                          onClick={() => moveToHomePage()}
+                        >
+                          BACK
+                        </Button>
                       </div>
                     </Grid>
                   </Grid>
